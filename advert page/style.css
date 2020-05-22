@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  --VeryPaleCyan: hsl(193, 100%, 96%);
+  --VeryDarkCyan: hsl(192, 100%, 9%);
+  --GrayishBlue: hsl(208, 11%, 55%);
+  --Pink: hsl(322, 100%, 66%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+}
+body {
+  font-size: 1.125rem;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1366px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.text-content {
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  display: block;
+  border: 0;
+  border-radius: 2rem;
+  color: var(--GrayishBlue);
+  background: #fff;
+  padding: 0.5rem 2.5rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-align: center;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid green;
+}
+.card,
+.cta-div {
+  border-radius: 10px;
+  padding: 2.5rem;
+  border: 2px solid green;
+}
+img {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.social-link {
+  width: 2.5rem;
+}
+/* hEADER STYLES */
+
+header {
+  padding: 2.5rem 0;
+  background: var(--VeryPaleCyan);
+}
+.logo-container {
+  display: block;
+  width: 8rem;
+}
+
+/* Hero area */
+.hero-area {
+  padding: 3rem 0;
+  text-align: center;
+}
+.img-container {
+  width: 95%;
+
+  margin: 0 auto;
+}
+.text-content {
+  padding: 0 3rem;
+}
+.hero-headline {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.hero-btn {
+  background: var(--Pink);
+  color: #fff;
+  padding: 0.7rem 1rem;
+}
+#features {
+  background: #f0f0f0;
+}
+
+/* Cta */
+.cta-div {
+  background: #fff;
+  border: 1px solid green;
+}
+
+footer {
+  background: var(--VeryDarkCyan);
+}
