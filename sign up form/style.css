@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* - Red: hsl(0, 100%, 74%) 
+- Green: hsl(154, 59%, 51%)
+
+### Accent
+
+- Blue: hsl(248, 32%, 49%)
+
+### Neutral
+
+- Dark Blue: hsl(249, 10%, 26%) 
+- Grayish Blue: hsl(246, 25%, 77%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 16px
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  font-size: 1.125rem;
+}
+a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+}
+p {
+  font-size: 1rem;
+}
+.container {
+  width: 80%;
+  max-width: 1366px;
+  margin: 0 auto;
+  text-align: center;
+}
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.content-text {
+  padding: 3rem 0;
+}
+
+.btn,
+input {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  color: #fff;
+  padding: 1rem 2.5rem;
+  background: hsl(248, 32%, 49%);
+}
+.trial-btn {
+  margin-bottom: 1.5rem;
+}
+.trial-btn span {
+  font-weight: 300;
+  margin-left: 0.4rem;
+}
+#submit-btn {
+  background: hsl(154, 59%, 51%);
+  border: 0;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 600;
+}
+
+/* Header Styles */
+
+header {
+  background: url(images/bg-intro-mobile.png);
+  background-color: hsl(0, 100%, 74%);
+  height: 100vh;
+  color: #fff;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+small {
+  color: hsl(246, 25%, 77%);
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+small span {
+  color: hsl(0, 100%, 74%);
+  margin-left: 0.1rem;
+  font-weight: 600;
+}
+
+form {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 100%;
+}
+input {
+  width: 100%;
+  color: hsl(249, 10%, 26%);
+  background: #fff;
+  border: 1px solid grey;
+  padding-left: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 376px) {
+  header {
+    padding: 3rem 0;
+  }
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .row {
+    flex-direction: row;
+
+    height: 100vh;
+  }
+  .form-container {
+    align-items: flex-start;
+    width: 50%;
+    padding-top: 7rem;
+  }
+
+  .content-text {
+    text-align: left;
+    width: 45%;
+    margin-right: 3rem;
+    align-items: center;
+    padding-top: 15rem;
+  }
+}
