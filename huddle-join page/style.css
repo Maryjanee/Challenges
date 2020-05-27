@@ -1,0 +1,21 @@
+:root {
+  --Violet: hsl(257, 40%, 49%);
+  --page-color: #fff;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1366px;
+}
+
+.icon {
+  background: white;
+}
