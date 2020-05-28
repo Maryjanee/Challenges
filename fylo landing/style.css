@@ -1,13 +1,128 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
 
+/* Base Styles */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #fff;
 }
 li {
   list-style: none;
 }
 a {
   text-decoration: none;
+}
+body {
+  font-size: 14px;
+}
+h1 {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+p {
+  line-height: 2rem;
+  font-size: 1.15rem;
+  padding: 1.2rem 1.5rem;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1400px;
+}
+.d-flex {
+  display: flex;
+}
+
+img {
+  width: 100%;
+}
+.btn {
+  padding: 1.3rem 7rem;
+  background: hsl(176, 68%, 64%);
+  border-radius: 2rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+/* Nav Styles */
+nav {
+  z-index: 1000;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Header Styles */
+header {
+  background: hsl(217, 28%, 15%);
+
+  padding: 1.5rem 0;
+
+  font-family: "Raleway", sans-serif;
+}
+.hero-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.hero-container img {
+  margin-top: 3rem;
+}
+.logo {
+  width: 8rem;
+}
+
+.nav-item {
+  margin: 0 1.5rem;
+  font-size: 1rem;
+}
+
+ul li > a:last-child {
+  margin-right: 0;
+}
+.text-content {
+  text-align: center;
+}
+.text-content p {
+  margin-bottom: 3rem;
+}
+
+/* Features Section */
+#features {
+  background: hsl(218, 28%, 13%);
+}
+.feature-item {
+  margin: 2rem 0;
+}
+#features .d-flex {
+  flex-direction: column;
+  text-align: center;
+}
+#features .d-flex h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+}
+#features .d-flex p {
+  font-family: "Raleway", sans-serif;
+}
+
+.feature-icon {
+  width: 15%;
+  margin: 3rem auto;
+}
+
+@media (min-width: 700px) {
+  .logo {
+    width: 10rem;
+  }
+  .nav-item {
+    margin: 0 2rem;
+    font-size: 1.1rem;
+  }
+  #features .d-flex {
+    flex-direction: row;
+    text-align: center;
+  }
 }
