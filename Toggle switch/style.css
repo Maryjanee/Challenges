@@ -4,8 +4,8 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
-body{
-  font-size:15px;
+body {
+  font-size: 15px;
 }
 
 li {
@@ -15,5 +15,3 @@ li {
 a {
   text-decoration: none;
 }
-
-
