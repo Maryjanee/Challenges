@@ -16,6 +16,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: var(--san-serif-font);
+  text-align: center;
 }
 
 li {
@@ -33,10 +34,17 @@ h5,
 h6 {
   margin-bottom: 1rem;
   font-family: var(--serif-font);
+  color: var(--VeryDarkViolet);
+  font-weight: 700;
 }
 
 img {
   width: 100%;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
 }
 
 button,
@@ -86,6 +94,58 @@ button,
 
 nav {
   background: var(--white);
+}
+
+.hero-image {
+  background: url("./images/image-intro-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 38rem;
+}
+
+.main-content {
+  color: var(--white);
+  background: var(--DarkViolet);
+  padding: 8rem 1.5rem;
+  position: relative;
+}
+
+.main-content h1 {
+  font-size: 4rem;
+  color: var(--white);
+}
+
+.main-content p {
+  padding-bottom: 2rem;
+}
+
+.btn-2 {
+  border: 2px solid var(--white);
+  color: var(--white);
+  background: none;
+  padding: 1rem 2.5rem;
+  letter-spacing: 3px;
+}
+
+.feature-icons-container {
+  width: 5rem;
+  margin: 2rem auto;
+}
+
+#features {
+  grid-template-columns: 1fr;
+  grid-row-gap: 4rem;
+  padding: 2rem;
+}
+
+#features div h3 {
+  font-size: 2rem;
+}
+
+#features div p {
+  font-size: 1.35rem;
+  color: var(--DarkGrayishViolet);
 }
 
 @media only screen and (min-width: 800px) {
