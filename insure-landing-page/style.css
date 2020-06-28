@@ -1,0 +1,109 @@
+:root {
+  --white: #fff;
+  --DarkViolet: hsl(256, 26%, 20%);
+  --GrayishBlue: hsl(216, 30%, 68%);
+  --VeryDarkViolet: hsl(270, 9%, 17%);
+  --DarkGrayishViolet: hsl(273, 4%, 51%);
+  --VeryLightGray: hsl(0, 0%, 98%);
+  --serif-font: "DM Serif Display", serif;
+  --san-serif-font: "Karla", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--san-serif-font);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1rem;
+  font-family: var(--serif-font);
+}
+
+img {
+  width: 100%;
+}
+
+button,
+.btn {
+  border-radius: 0.15rem;
+  padding: 0.8rem 1.5rem;
+  border: 2px solid var(--VeryDarkViolet);
+  color: var(--VeryDarkViolet);
+  background: var(--white);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+}
+
+.logo-container {
+  width: 8rem;
+}
+
+.hambuger-container {
+  width: 2rem;
+}
+
+.nav-links-container {
+  display: none;
+}
+
+.wrapper {
+  padding: 1.5rem;
+}
+
+nav {
+  background: var(--white);
+}
+
+@media only screen and (min-width: 800px) {
+  .wrapper {
+    padding: 1.5rem 6rem;
+  }
+
+  .nav-links-container {
+    display: flex;
+    justify-content: space-between;
+    flex: 0.4;
+  }
+
+  .hambuger-container {
+    display: none;
+  }
+  .nav-link {
+    color: var(--DarkGrayishViolet);
+    font-size: 0.8rem;
+  }
+}
