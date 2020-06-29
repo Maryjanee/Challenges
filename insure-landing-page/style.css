@@ -153,6 +153,13 @@ nav {
     padding: 1.5rem 6rem;
   }
 
+  .line {
+    border: 1px solid var(--GrayishBlue);
+    display: block;
+    width: 20%;
+    margin-bottom: 4rem;
+  }
+
   .nav-links-container {
     display: flex;
     justify-content: space-between;
@@ -165,5 +172,37 @@ nav {
   .nav-link {
     color: var(--DarkGrayishViolet);
     font-size: 0.8rem;
+  }
+
+  .hero-image {
+    background: url("./images/image-intro-desktop.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: 48rem 7rem;
+    height: 100%;
+    z-index: 2;
+  }
+
+  .main-content {
+    padding: 4rem 6rem;
+  }
+  .main-content div {
+    width: 51%;
+    text-align: left;
+  }
+
+  .main-content {
+    margin: 1rem 0;
+    padding: 6rem 8rem;
+  }
+
+  .main-content div h1 {
+    font-size: 4rem;
+    text-align: left;
+  }
+
+  .main-content div p {
+    font-size: 1.19rem;
+    text-align: left;
   }
 }
